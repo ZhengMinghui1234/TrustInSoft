@@ -1,5 +1,4 @@
 void main() {
   int x;
-  if (x) // warn
-    return;
+  ^{ int y = x; }(); // warn
 }
