@@ -1,5 +1,5 @@
 // C
-void test(int *p) {
+void main(int *p) {
   if (p)
     return;
 
