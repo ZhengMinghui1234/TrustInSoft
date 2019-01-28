@@ -1,4 +1,4 @@
-void main() {
+int main() {
   int x;
-  ^{ int y = x; }(); // warn
+  return x; // warn
 }
