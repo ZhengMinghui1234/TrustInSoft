@@ -1,4 +1,4 @@
-void main() {
-  int i, a[10];
-  int x = a[i]; // warn: array subscript is undefined
+void test() {
+  int x;
+  x |= 1; // warn: left expression is uninitialized
 }
