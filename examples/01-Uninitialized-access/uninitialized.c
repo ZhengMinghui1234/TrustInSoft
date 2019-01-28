@@ -1,7 +1,6 @@
-// C
-void main(int *p) {
-  if (p)
-    return;
+char const *p;
 
-  int x = p[0]; // warn
+void main() {
+  char const str[] = "string";
+  p = str; // warn
 }
