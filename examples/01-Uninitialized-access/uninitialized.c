@@ -1,4 +1,4 @@
 void main() {
   int x;
-  int y = x + 1; // warn: left operand is garbage
+  int vla1[x]; // warn: garbage as size
 }
