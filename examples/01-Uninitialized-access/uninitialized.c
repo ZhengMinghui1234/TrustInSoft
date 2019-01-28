@@ -1,6 +1,7 @@
-int f(int *p) __attribute__((nonnull));
+// C
+void test(int *p) {
+  if (p)
+    return;
 
-void main(int *p) {
-  if (!p)
-    f(p); // warn
+  int x = p[0]; // warn
 }
