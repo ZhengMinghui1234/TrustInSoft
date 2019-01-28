@@ -1,4 +1,3 @@
-int main() {
-  int x;
-  return x; // warn
+void main() {
+  for (float x = 0.1f; x <= 1.0f; x += 0.1f) {} // warn
 }
