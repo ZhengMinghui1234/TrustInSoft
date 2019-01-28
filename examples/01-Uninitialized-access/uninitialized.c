@@ -1,4 +1,4 @@
 void main() {
-  int x;
-  int vla1[x]; // warn: garbage as size
+  int i, a[10];
+  int x = a[i]; // warn: array subscript is undefined
 }
